@@ -1,7 +1,6 @@
 import {Link , useLoaderData} from "react-router-dom"
 
 function Index(props) {
-  console.count()
     const diaries =useLoaderData()
     return diaries.map((diary) => (
       <div key={diary._id} className="diary">
